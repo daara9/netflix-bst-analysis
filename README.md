@@ -18,6 +18,8 @@ O programa le dados de filmes e series da Netflix e armazena os registros em uma
 - executa cinco analises sobre os filmes e series;
 - salva os dados atuais em um novo arquivo CSV.
 
+As analises usam percursos diferentes da arvore: em ordem, pre-ordem, pos-ordem e largura.
+
 ## Requisitos
 
 - JDK 23 ou superior;
@@ -65,10 +67,10 @@ O arquivo credits.csv nao e utilizado neste projeto, conforme especificado no en
     ├── .gitignore
     ├── data/
     │   └── titles.csv
-    ├── docs/
-    │   └── enunciado-projeto-2.pdf
     └── src/
         ├── BST.java
         ├── Main.java
         ├── NoBST.java
         └── ProgramaNetFlix.java
+
+Os arquivos gerados durante a compilacao ficam na pasta out/ e nao devem ser enviados como codigo-fonte.
