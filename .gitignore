@@ -1,0 +1,17 @@
+# Arquivos gerados pelo compilador ou pela IDE
+out/
+*.class
+*.jar
+
+# Configurações locais de IDE
+.idea/
+.vscode/
+*.iml
+
+# Arquivos gerados pelo programa
+*.log
+netflix_atualizado.csv
+
+# Arquivos locais do sistema operacional
+Thumbs.db
+.DS_Store
